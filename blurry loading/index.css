@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://th.bing.com/th/id/R.02ec2d983c041a0fc732f95a4f902a5e?rik=f6YZrP9f0eBtwA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fZT136cA.jpg&ehk=z%2bdAuEsFyj9GEoT3kiflwXTyJc1krPncbFnpnFAV5iw%3d&risl=&pid=ImgRaw&r=0");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.loading-text {
+  font-size: 50px;
+  color: white;
+  text-shadow: 0px 0px 20px black;
+}
